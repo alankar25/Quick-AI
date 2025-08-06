@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="md:max-w-96">
             <img className="h-9" src={assets.logo} alt="logo"/>
             <p className="mt-6 text-sm">
-                Experience the power of AI with QuickAi. <br />Transform your content creation with our suite of premium AI tools. Write articles, generate images, and enhance your workflow.
+                Experience the power of AI with QuickAI. <br />Transform your content creation with our suite of premium AI tools. Write articles, generate images, and enhance your workflow.
             </p>
         </div>
         <div className="flex-1 flex items-start md:justify-end gap-20">
@@ -21,7 +21,7 @@ const Footer = () => {
                     <li><a href="#">Privacy policy</a></li>
                 </ul>
             </div>
-            <div>
+            {/* <div>
                 <h2 className="font-semibold text-gray-800 mb-5">Subscribe to our newsletter</h2>
                 <div className="text-sm space-y-2">
                     <p>The latest news, articles, and resources, sent to your inbox weekly.</p>
@@ -30,7 +30,7 @@ const Footer = () => {
                         <button className="bg-primary w-24 h-9 text-white rounded cursor-pointer">Subscribe</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
     <p className="pt-4 text-center text-xs md:text-sm pb-5">
